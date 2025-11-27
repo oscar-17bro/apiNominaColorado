@@ -1,0 +1,41 @@
+[ {
+  "empleadoDTO" : {
+    "id_p" : 1073741824,
+    "nombres" : "jaime",
+    "apellidos" : "mono",
+    "salario_b" : 2000000.0,
+    "cargo" : "celador"
+  },
+  "mes" : "string",
+  "dias_t" : 30
+}, {
+  "empleadoDTO" : {
+    "id_p" : 222222,
+    "nombres" : "nelson",
+    "apellidos" : "tio",
+    "salario_b" : 3000000.0,
+    "cargo" : "asistente"
+  },
+  "mes" : "string",
+  "dias_t" : 30
+}, {
+  "empleadoDTO" : {
+    "id_p" : 2220099,
+    "nombres" : "pedro",
+    "apellidos" : "mono",
+    "salario_b" : 2000000.0,
+    "cargo" : "secretario"
+  },
+  "mes" : "junio",
+  "dias_t" : 30
+}, {
+  "empleadoDTO" : {
+    "id_p" : 464646,
+    "nombres" : "maria",
+    "apellidos" : "linda",
+    "salario_b" : 2000000.0,
+    "cargo" : "celador"
+  },
+  "mes" : "junio",
+  "dias_t" : 30
+} ]

@@ -1,6 +1,5 @@
 package co.edu.udistrital.ApiNominaMunoz.controller;
 
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -66,4 +65,14 @@ public class NominaController {
             return ResponseEntity.notFound().build();
         }
     }
+
+ 
+    //endpoint del sorteo
+    
+    @GetMapping("/sorteo/{num}")
+      public ResponseEntity<Map<String, Object>> sorteo(@PathVariable int num) {
+        return ResponseEntity.ok(service.sorteoNomina(num));
+    }
+
+
 }
